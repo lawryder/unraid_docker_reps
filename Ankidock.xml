@@ -9,11 +9,11 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project/>
-  <Overview>Meine Bearbeitung des Anki-Sync-Servers von ankicommunity/anki-sync-server.&#xD;
-Getestet mit AnkiDroid, Anki 2.1.28 (PC) sowie Anki 2.1.42 (PC und Mac).&#xD;
-Funtkion hinter VPN, Dyn-DNS und Reverse-Proxy getestet und best&#xE4;tigt.&#xD;
+  <Overview>My Docker of ankicommunity/anki-sync-server.&#xD;
+Testet with AnkiDroid, Anki 2.1.28 (PC) and Anki 2.1.42 (PC and Mac).&#xD;
+Working with VPN, DynDNS and behind a reverse Proxy.&#xD;
 &#xD;
-Anleitung unter: https://github.com/lawryder/ankidock</Overview>
+Further instructions: https://github.com/lawryder/ankidock</Overview>
   <Category>Backup: Cloud: Tools: Other: MediaServer:Other Network:Web Status:Stable</Category>
   <WebUI>http://[IP]:[PORT]</WebUI>
   <TemplateURL/>
@@ -22,13 +22,13 @@ Anleitung unter: https://github.com/lawryder/ankidock</Overview>
   <PostArgs>bash</PostArgs>
   <CPUset/>
   <DateInstalled>1616510457</DateInstalled>
-  <DonateText>Eine Spende f&#xFC;r einen funktionierenden Anki-Server</DonateText>
+  <DonateText>I love Ankidock! Go buy yourself a beer!</DonateText>
   <DonateLink>http://www.paypal.me/lawryder</DonateLink>
-  <Description>Meine Bearbeitung des Anki-Sync-Servers von ankicommunity/anki-sync-server.&#xD;
-Getestet mit AnkiDroid, Anki 2.1.28 (PC) sowie Anki 2.1.42 (PC und Mac).&#xD;
-Funtkion hinter VPN, Dyn-DNS und Reverse-Proxy getestet und best&#xE4;tigt.&#xD;
+  <Description>My Docker of ankicommunity/anki-sync-server.&#xD;
+Testet with AnkiDroid, Anki 2.1.28 (PC) and Anki 2.1.42 (PC and Mac).&#xD;
+Working with VPN, DynDNS and behind a reverse Proxy.&#xD;
 &#xD;
-Anleitung unter: https://github.com/lawryder/ankidock</Description>
+Further instructions: https://github.com/lawryder/ankidock</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>

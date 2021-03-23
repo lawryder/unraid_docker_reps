@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ankidock2</Name>
+  <Repository>lawryder/ankidock</Repository>
+  <Registry>https://hub.docker.com/repository/docker/lawryder/ankidock</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Meine Bearbeitung des Anki-Sync-Servers von ankicommunity/anki-sync-server.&#xD;
+Getestet mit AnkiDroid, Anki 2.1.28 (PC) sowie Anki 2.1.42 (PC und Mac).&#xD;
+Funtkion hinter VPN, Dyn-DNS und Reverse-Proxy getestet und best&#xE4;tigt.&#xD;
+&#xD;
+Anleitung unter: https://github.com/lawryder/ankidock</Overview>
+  <Category>Backup: Cloud: Tools: Other: MediaServer:Other Network:Web Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT]</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams>--mount type=volume,dst=/anki-sync-server,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/anki-server --mount type=volume,dst=/etc/nginx,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/nginx -dit</ExtraParams>
+  <PostArgs>bash</PostArgs>
+  <CPUset/>
+  <DateInstalled>1616510457</DateInstalled>
+  <DonateText>Eine Spende f&#xFC;r einen funktionierenden Anki-Server</DonateText>
+  <DonateLink>http://www.paypal.me/lawryder</DonateLink>
+  <Description>Meine Bearbeitung des Anki-Sync-Servers von ankicommunity/anki-sync-server.&#xD;
+Getestet mit AnkiDroid, Anki 2.1.28 (PC) sowie Anki 2.1.42 (PC und Mac).&#xD;
+Funtkion hinter VPN, Dyn-DNS und Reverse-Proxy getestet und best&#xE4;tigt.&#xD;
+&#xD;
+Anleitung unter: https://github.com/lawryder/ankidock</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>27701</HostPort>
+        <ContainerPort>27701</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="Daten" Target="27701" Default="" Mode="tcp" Description="Container Port: 27701" Type="Port" Display="always" Required="true" Mask="false">27701</Config>
+</Container>

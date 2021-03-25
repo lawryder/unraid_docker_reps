@@ -15,14 +15,14 @@ Further info on https://github.com/lawryder/ankidock</Overview>
   <WebUI>http://[IP]:[PORT]</WebUI>
   <TemplateURL/>
   <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
-  <ExtraParams>--mount type=volume,dst=/anki-sync-server,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/anki-server --mount type=volume,dst=/etc/nginx,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/nginx -dit</ExtraParams>
+  <ExtraParams>--mount type=volume,dst=/anki-sync-server,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/anki-server --mount type=volume,dst=/etc/nginx,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=/mnt/user/appdata/ankidock/nginx -it</ExtraParams>
   <PostArgs>bash</PostArgs>
   <CPUset/>
   <DateInstalled>1616546893</DateInstalled>
   <DonateText>I love Ankidock! Go, buy yourself a beer for me!</DonateText>
   <DonateLink>https://www.paypal.com/paypalme/lawryder</DonateLink>
   <Description>My Docker of ankicommunity/anki-sync-server. &#xD;
-Further info on https://github.com/lawryder/ankidock</Description>
+Further info (german + english) on https://github.com/lawryder/ankidock</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -36,5 +36,5 @@ Further info on https://github.com/lawryder/ankidock</Description>
   <Data/>
   <Environment/>
   <Labels/>
-  <Config Name="Container Port" Target="27701" Default="27701" Mode="tcp" Description="Container Port: 27701" Type="Port" Display="always" Required="false" Mask="false">27701</Config>
+  <Config Name="Container Port" Target="27701" Default="27701" Mode="tcp" Description="Container Port: 27701" Type="Port" Display="always" Required="true" Mask="false">27701</Config>
 </Container>
